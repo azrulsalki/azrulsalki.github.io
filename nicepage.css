@@ -34800,7 +34800,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-icon-1 {
   width: 45px;
   height: 45px;
-  margin: 18px auto 0 17px;
+  margin: 18px auto 0 18px;
 }
 
 .u-header .u-image-1 {
@@ -34811,7 +34811,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-icon-1 {
     width: 45px;
-    margin-left: 17px;
   }
 
   .u-header .u-image-1 {
