@@ -241,7 +241,6 @@
 
   .u-section-2 .u-layout-wrap-1 {
     margin-bottom: 14px;
-    position: relative;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -355,10 +354,6 @@
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
     min-height: 578px;
-  }
-
-  .u-section-3 .u-layout-wrap-1 {
-    position: relative;
   }
 
   .u-section-3 .u-image-1 {
@@ -476,10 +471,6 @@
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
     min-height: 578px;
-  }
-
-  .u-section-4 .u-layout-wrap-1 {
-    position: relative;
   }
 
   .u-section-4 .u-layout-cell-1 {
