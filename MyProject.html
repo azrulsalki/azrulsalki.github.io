@@ -8,36 +8,56 @@
 </head>
 <body>
 
-  <header class="projects-hero">
-    <nav class="navbar">
-      <a href="My-Portfolio.html">Back to Main page</a>
-    </nav>
+<header class="project-header">
+  <a href="My-Portfolio.html" class="back-btn">Home</a>
 
+  <div class="header-content">
     <h1>Data Analytics Projects</h1>
     <p>
-      A collection of projects focused on data cleaning, analysis,
-      dashboarding, and business insights.
+      Data cleaning, dashboarding, KPI tracking, reporting, and business insights.
     </p>
-  </header>
+  </div>
+</header>
 
   <main class="projects-container">
 
-    <section class="project-card">
-      <h2>Machine to Machine Data Extraction & Visualization</h2>
-      <p>
-        This project was initially assigned to me by DRB-Hicom during my internship. With their permission, I continued to 
-        develop it further as part of my final year project, driven by my strong interest in exploring its full potential.
-      </p>
-      <p>The project originally operated in a local environment, but during my final year, I expanded it by exploring cloud-based deployment using platforms such as AWS and GCP.</p>
 
-      <ul>
-        <li><strong>Tools:</strong> Data Visualization, SQL, Node-RED, Google Cloud Platform</li>
-        <li><strong>Skills:</strong> Dashboarding, Machine to Machine, OEE analysis </li>
-        <li><strong>Focus:</strong> Manufacturing performance reporting</li>
-      </ul>
+<section class="project-card">
+  <h2>Cloud-Based System Deployment (DRB-Hicom Project)</h2>
 
+  <p class="project-summary">
+    A project initially developed during my internship and later expanded
+    into a cloud-based solution as part of my final year project.
+  </p>
 
-      <img src="images/M2MDashboard.PNG " alt="M2M Dashboard" class="project-img">
+  <div class="project-details">
+    <h3>Problem</h3>
+    <p>
+      The system was originally deployed locally, limiting scalability and accessibility.
+    </p>
+
+    <h3>What I Did</h3>
+    <p>
+      Migrated and explored deploying the system using cloud platforms such as AWS/GCP,
+      improving availability and scalability.
+    </p>
+
+    <h3>Tools Used</h3>
+    <ul>
+      <li>AWS / GCP</li>
+      <li>Cloud Deployment</li>
+      <li>System Architecture</li>
+    </ul>
+
+    <h3>Outcome</h3>
+    <p>
+      Gained hands-on experience in cloud technologies and improved system flexibility.
+    </p>
+  </div>
+
+  <div class="project-btn-container">
+
+    <img src="images/M2MDashboard.PNG " alt="M2M Dashboard" class="project-img">
        <p class="img-desc">
         Performance dashboard showing machine overall effectiveness.
         </p>
@@ -56,49 +76,105 @@
        <p class="img-desc">
         Node-RED backend fetching & processing the data into visualization dashboard
         </p>
-    </section>
 
-    <section class="project-card">
-      <h2>First Level Support KPIs Analysis</h2>
-      <p>
-        This is a self-initiated project developed in my current role to analyze and monitor team KPIs, 
-        supporting data-driven decisions to ensure we achieve our annual targets.
+  </div>
+  <div class="project-btn-container">
+    <a href="https://youtu.be/Hg5yztsOEyM?si=-vmlgqj3gJrfNW-m&t=385" class="btn">Video</a>
+    <a href="https://drive.google.com/file/d/1NW9pdMHW9y5V3qgdHjKT5M74RHBTBS0b/view?usp=drive_link" target="_blank" class="btn">Document</a>
+  </div>
+  
+  
+</section>
+
+
+<section class="project-card">
+  <h2>Team KPI Monitoring Dashboard</h2>
+
+  <p class="project-summary">
+    A self-initiated project to analyze and monitor team performance metrics,
+    enabling better visibility of KPIs and supporting data-driven decision-making.
+  </p>
+
+  <div class="project-details">
+    <h3>Problem</h3>
+    <p>
+      Limited visibility into team performance made it difficult to track progress
+      toward annual targets.
     </p>
-        <p>
-        As part of the project, I built a tracking system to analyze individual ticket volumes and performance 
-        trends, providing actionable insights that help improve team efficiency and foster a more performance-driven work environment.
-      </p>
 
-      <ul>
-        <li><strong>Tools:</strong> ServiceNow, ServiceNow Dashboard</li>
-        <li><strong>Skills:</strong> Data cleaning, grouping, trend analysis</li>
-        <li><strong>Focus:</strong> IT support performance insights</li>
-      </ul>
-        <img src="images/KPI.png " alt="KPI" class="project-img">
+    <h3>What I Did</h3>
+    <p>
+      Built a KPI tracking system to monitor ticket volume, individual performance,
+      and trends over time using structured data and reporting tools.
+    </p>
+
+    <h3>Tools Used</h3>
+    <ul>
+      <li>Excel</li>
+      <li>Power BI (if used)</li>
+      <li>Data Visualization</li>
+    </ul>
+
+    <h3>Outcome</h3>
+    <p>
+      Improved visibility of team performance and supported a more data-driven,
+      performance-focused work environment.
+    </p>
+    
+    <img src="images/KPI.png " alt="KPI" class="project-img">
         <p class="img-desc">
             Real time KPI analysis 
             </p>
-    </section>
+  </div>
 
-    <section class="project-card">
-      <h2>Gaming Market Analysis</h2>
-      <p>
-        I have a strong interest in gaming and data analytics, which I combine by collecting and analyzing in-game data as part of my hobby.
-        I share these insights with the gaming community to support deeper analysis, including market trends and strategy optimization for earning in-game currency.
-        </p>
+</section>
 
-      <ul>
-        <li><strong>Tools:</strong> Google Sheet, Gaming</li>
-        <li><strong>Skills:</strong> Tables, visualization, reporting</li>
-        <li><strong>Focus:</strong> In-Game analytics</li>
-      </ul>
-        <img src="images/gaming1.PNG " alt="PathofExile" class="project-img">
-        <p class="img-desc">
-            Gaming analysis project 
-            </p>
-      <a href="https://docs.google.com/spreadsheets/d/1qnOW_MSSexBK36A7_6WhpildvyXcrirZLN_L7KB_M6I/edit?usp=sharing" 
-      class="btn">View Datasets</a>
-    </section>
+
+<section class="project-card">
+  <h2>Gaming Market Analysis</h2>
+
+  <p class="project-summary">
+    A personal data analytics project where I collected and analyzed in-game market data
+    to identify trends, pricing patterns, and strategies for earning in-game currency.
+  </p>
+
+  <div class="project-details">
+    <h3>Problem</h3>
+    <p>
+      Players needed better visibility into market trends to make smarter trading decisions.
+    </p>
+
+    <h3>What I Did</h3>
+    <p>
+      I collected, organized, and analyzed item price data using Excel tables and visualizations.
+      The findings were shared with the gaming community for deeper market analysis.
+    </p>
+
+    <h3>Tools Used</h3>
+    <ul>
+      <li>Excel</li>
+      <li>Data Cleaning</li>
+      <li>Tables</li>
+      <li>Data Visualization</li>
+    </ul>
+
+    <h3>Outcome</h3>
+    <p>
+      Created a structured analysis that helped users understand market behavior and identify
+      better strategies for earning in-game currency.
+    </p>
+  </div>
+
+  <div class="project-media">
+    <img src="images/gaming1.PNG" alt="Gaming market analysis dashboard" class="project-img">
+    <p class="img-desc">Gaming market analysis</p>
+  </div>
+   <div class="project-btn-container">
+    <a href="https://docs.google.com/spreadsheets/d/1qnOW_MSSexBK36A7_6WhpildvyXcrirZLN_L7KB_M6I/edit?usp=sharing" 
+    class="btn">View Analysis</a>
+  </div>
+
+  </section>
 
   </main>
 
