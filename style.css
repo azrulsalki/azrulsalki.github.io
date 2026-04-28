@@ -282,11 +282,61 @@ button {
 
   .profile-img {
     max-width: 100%;
+    margin: auto;
     height: auto;
-    display: block;
-    border-radius: 12px;
   }
   section {
     margin-bottom: 40px;
   }
+}
+
+.btn {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 20px auto;
+  background-color: #494646;   /* grey */
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 13px;
+  margin-top: auto;
+  align-self: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #ffffff;
+  outline: 2px solid #007BFF;
+  color: #000000;
+  transform: scale(1.05);
+}
+
+.project-img {
+  width: 70%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  border-radius: 10px;  /* rounded corners */
+  margin: 15px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.project-card .btn {
+  margin-top: 10px;      
+  align-self: center;    
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+}
+
+.img-desc {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-top: 8px;
 }
