@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-{const text = "IT Support Specialist | Junior Data Analyst";
+{const text = "IT Support Specialist | Data Analyst";
 let i = 0;
 
 function type() {
